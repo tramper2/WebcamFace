@@ -1,0 +1,19 @@
+<svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8860b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Left Frame (Round) -->
+  <circle cx="50" cy="50" r="35" fill="none" stroke="url(#goldGradient)" stroke-width="3"/>
+  <!-- Right Frame (Round) -->
+  <circle cx="150" cy="50" r="35" fill="none" stroke="url(#goldGradient)" stroke-width="3"/>
+  <!-- Bridge (Double bar) -->
+  <path d="M 85 50 L 115 50" fill="none" stroke="url(#goldGradient)" stroke-width="3"/>
+  <path d="M 85 55 L 115 55" fill="none" stroke="url(#goldGradient)" stroke-width="3"/>
+  <!-- Left Temple -->
+  <path d="M 15 50 L 0 48" fill="none" stroke="url(#goldGradient)" stroke-width="3"/>
+  <!-- Right Temple -->
+  <path d="M 185 50 L 200 48" fill="none" stroke="url(#goldGradient)" stroke-width="3"/>
+</svg>

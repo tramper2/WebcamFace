@@ -1,0 +1,14 @@
+# Dependencies
+Source/node_modules/
+node_modules/
+
+# Build outputs
+Source/dist/
+dist/
+
+# IDE and System files
+.claude/
+.vscode/
+.idea/
+.DS_Store
+*.log

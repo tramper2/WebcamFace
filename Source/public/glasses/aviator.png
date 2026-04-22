@@ -1,0 +1,23 @@
+<svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aviatorGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#c0c0c0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#808080;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lensGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#0f0f1a;stop-opacity:0.95" />
+    </linearGradient>
+  </defs>
+  <!-- Left Lens (Teardrop) -->
+  <path d="M 15 25 Q 50 15 85 25 Q 85 70 50 80 Q 15 70 15 25 Z" fill="url(#lensGradient)" stroke="url(#aviatorGradient)" stroke-width="3"/>
+  <!-- Right Lens (Teardrop) -->
+  <path d="M 115 25 Q 150 15 185 25 Q 185 70 150 80 Q 115 70 115 25 Z" fill="url(#lensGradient)" stroke="url(#aviatorGradient)" stroke-width="3"/>
+  <!-- Bridge (Double bar) -->
+  <path d="M 85 30 L 115 30" fill="none" stroke="url(#aviatorGradient)" stroke-width="3"/>
+  <path d="M 85 35 L 115 35" fill="none" stroke="url(#aviatorGradient)" stroke-width="2"/>
+  <!-- Left Temple -->
+  <path d="M 15 35 L 0 32" fill="none" stroke="url(#aviatorGradient)" stroke-width="3"/>
+  <!-- Right Temple -->
+  <path d="M 185 35 L 200 32" fill="none" stroke="url(#aviatorGradient)" stroke-width="3"/>
+</svg>
